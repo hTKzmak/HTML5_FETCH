@@ -1,0 +1,18 @@
+.taskBlock {
+    border: 2px solid rgb(46, 46, 46);
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.taskBlock:hover {
+    background-color: rgb(40, 40, 40);
+    border: 2px solid rgb(92, 92, 92);
+}
